@@ -11,5 +11,6 @@ Set eclipse setting in itellij
 setting-> keymap-> select eclipse from drop down
 
 Problem : If a interface class implimented by multiple class then issue come during compile time that which one will be use
-Solution : @Primary or @Qualifier
+Solution : @Primary : add on the class which implimentation you what
+           @Qualifier : added on class wher injection happen and keep first character small
 
