@@ -1,1 +1,11 @@
 Readme for springBoot
+
+To run jav in detached mode: & make it detached
+java -jar ./target/myspringboot-0.0.1-SNAPSHOT.jar &
+
+How to kill running background process
+ps -aux (show the list of process)
+kill pid (to kill process id)
+
+Set eclipse setting in itellij
+setting-> keymap-> select eclipse from drop down
