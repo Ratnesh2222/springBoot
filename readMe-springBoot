@@ -9,3 +9,7 @@ kill pid (to kill process id)
 
 Set eclipse setting in itellij
 setting-> keymap-> select eclipse from drop down
+
+Problem : If a interface class implimented by multiple class then issue come during compile time that which one will be use
+Solution : @Primary or @Qualifier
+
