@@ -1,5 +1,6 @@
 package com.self.myspringboot;
 
+import com.self.myspringboot.service.Service;
 import com.self.myspringboot.service.ServiceImplOne;
 
 import org.slf4j.Logger;
@@ -13,12 +14,12 @@ public class TestContoller {
     Logger logger =  LoggerFactory.getLogger(TestContoller.class);
 
     @Autowired
-    ServiceImplOne serviceImplOne;
+    Service service;
 
     @GetMapping("/start")
     public String start() {
-        logger.info("---inside start---");
-        return serviceImplOne.showData();
+        logger.info("---inside TestContoller.start---");
+        return service.showData();
     }
 
 }

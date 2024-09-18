@@ -5,10 +5,10 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Component
-public class ServiceImplOne {
+public class ServiceImplOne implements service{
 
     public String showData() {
-        return "return showData from ServiceImplOne";
+        return "return showData from ServiceImplOne, impl service";
     }
 
 }
