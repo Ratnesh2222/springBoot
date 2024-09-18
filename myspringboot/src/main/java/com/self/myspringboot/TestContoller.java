@@ -8,7 +8,7 @@ public class TestContoller {
 
     @GetMapping("/start")
     public String start() {
-        return "return from spring boot on aws";
+        return "return from spring boot on aws , update by checkin";
     }
 
 }
